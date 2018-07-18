@@ -1,0 +1,45 @@
+section
+{
+    background-image: url("images/Paralax-Home-Background-4.jpg")
+}
+
+
+.heading-div
+{
+    background-color: #c45835;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.text-center
+{
+    color: #f7f4f4;
+    margin-top: 20px;
+
+}
+
+.col-lg-4
+{
+    width: 84%;
+    background-color:rgba(0, 0, 0,0.5)
+
+}
+
+.form-group
+{
+    
+}
+
+
+form.bg-light
+{
+    padding: 30px ;
+    
+}
+
+.navbar
+{
+    height: 60px;
+    color: black;
+    
+}
