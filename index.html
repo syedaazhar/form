@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Validator Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" 
     integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
@@ -17,56 +17,61 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" 
     integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-    <nav class="navbar navbar-dark bg-dark ">
-        <!-- Navbar content -->
-    </nav>
-    <h1 class="text-center "> Client Signup Form</h1><br>
-
-   
-
-    <div class=" col-lg-4 m-auto  d-block bg-light main">
+    
+    <header class="navbar navbar-dark ">
+        <h1 class="title"> Validator Form</h1>
+    </header>
+    <br>
+    <br>
+    <div class=" col-lg-4 m-auto  d-block  main">
            
-        <form class="bg-light " action="#" onsubmit=" return validation()">
+        <form class="form-div " action="#" onsubmit=" return validation()">
     
             <div class="form-group">
                 <label> Username: </label>
-                <input type="text" name="user" id="username" class="form-control" autocomplete="off">
-                <span id="usernameid" class="text-danger font-weight-bold"> </span>
+                <input type="text" name="user" id="username" class="form-control"
+                autocomplete="off" placeholder="Enter Username">
+                <span id="usernameid" class="text-danger font-weight-bold" > </span>
             </div>
 
             <div class="form-group">
                 <label> Password: </label>
-                <input type="password" name="user" id="password" class="form-control" autocomplete="off">
+                <input type="password" name="user" id="password" class="form-control" 
+                autocomplete="off" placeholder="Enter Password">
                 <span id="passwords" class="text-danger font-weight-bold"> </span>
             </div>
 
             <div class="form-group">
                 <label> Confirm Password: </label>
-                <input type="password" name="user" id="passwordconfrm" class="form-control" autocomplete="off">
+                <input type="password" name="user" id="passwordconfrm" class="form-control" 
+                autocomplete="off" placeholder="Confirm-Password">
                 <span id="confrmpasswrod" class="text-danger font-weight-bold">  </span>
             </div>
 
             <div class="form-group">
                 <label> Mobile Number: </label>
-                <input type="text" name="user" id="numbermobile" class="form-control" autocomplete="off">
+                <input type="text" name="user" id="numbermobile" class="form-control" 
+                autocomplete="off" placeholder="Enter Moblie Number">
                 <span id="mobilenumber" class="text-danger font-weight-bold"> </span>
             </div>
 
             <div class="form-group">
                 <label> Email: </label>
-                <input type="text" name="user" id="emailid" class="form-control" autocomplete="off">
+                <input type="text" name="user" id="emailid" class="form-control" 
+                autocomplete="off" placeholder="Enter Email">
                 <span id="emailids" class="text-danger font-weight-bold"> </span>
             </div>
 
-            <input type="submit" name="submit" value="Submit" class="btn btn-success">
+            <button type="submit" name="submit" value="Submit" class="btn btn-danger">Submit</button>
 
         </form>
     </div>  
-    </section>      
+     
 </body>
 </html>

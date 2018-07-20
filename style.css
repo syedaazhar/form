@@ -1,45 +1,68 @@
-section
+body
 {
-    background-image: url("images/Paralax-Home-Background-4.jpg")
+    background-image: url("images/Paralax-Home-Background-4.jpg");
+    font-family: 'Abril Fatface', cursive;
 }
 
 
-.heading-div
+/* .heading-div
 {
     background-color: #c45835;
     margin-bottom: 0;
     padding: 0;
-}
+} */
 
-.text-center
+.title
 {
     color: #f7f4f4;
-    margin-top: 20px;
-
 }
 
 .col-lg-4
 {
     width: 84%;
-    background-color:rgba(0, 0, 0,0.5)
-
+    background-color:rgba(0, 0, 0,0.3);
+    color:white;
+    margin-bottom: 36px !important;
+    -webkit-box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.87);
+    -moz-box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.87);
+    box-shadow: 0px 2px 19px -2px rgba(0,0,0,0.87);
+    font-family: 'Song Myung', serif;
 }
 
-.form-group
+.form-div
 {
-    
+    padding-top: 16px;
+    padding-bottom: 10px
 }
 
+label
+{
+    font-size: 18px;
+}
 
 form.bg-light
 {
     padding: 30px ;
-    
+    font-weight: bold;
 }
 
 .navbar
 {
     height: 60px;
-    color: black;
-    
+    background-color:#2f2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.btn 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 7px 40px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
 }
