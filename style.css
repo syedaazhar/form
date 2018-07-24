@@ -1,7 +1,10 @@
-body
+section
 {
     background-image: url("images/Paralax-Home-Background-4.jpg");
     font-family: 'Abril Fatface', cursive;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 
@@ -38,6 +41,12 @@ body
 label
 {
     font-size: 18px;
+
+}
+
+label, .form-control
+{
+    cursor: pointer;
 }
 
 form.bg-light
